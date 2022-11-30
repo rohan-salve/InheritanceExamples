@@ -1,4 +1,4 @@
-package com.example.inheritance_ex;
+package com.example.association_constructor.one2many.entities;
 
 //Target class for Constructor Injection
 public class Owner {
@@ -10,7 +10,7 @@ public class Owner {
     //has-a relation
     Vehicle[] vehicles;
 
-    Owner(String oName, String city, int age, Vehicle[] vehicles)
+    public Owner(String oName, String city, int age, Vehicle[] vehicles)
     {
         this.oName  = oName;
         this.city = city;

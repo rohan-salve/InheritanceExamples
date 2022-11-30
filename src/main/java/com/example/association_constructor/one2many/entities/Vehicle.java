@@ -1,4 +1,4 @@
-package com.example.inheritance_ex;
+package com.example.association_constructor.one2many.entities;
 
 public class Vehicle {
     private int tyres;
@@ -32,7 +32,7 @@ public class Vehicle {
         else System.out.print(" Bicycle");
     }
 
-    Vehicle()
+    public Vehicle()
     { tyres =0; cc =0;
         System.out.println();
     }

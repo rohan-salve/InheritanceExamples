@@ -1,6 +1,11 @@
-package com.example.inheritance_ex;
+package com.example.association_constructor.one2many.testApp;
 
 //ENHMNT0001
+
+import com.example.association_constructor.one2many.entities.Bike;
+import com.example.association_constructor.one2many.entities.Car;
+import com.example.association_constructor.one2many.entities.Owner;
+import com.example.association_constructor.one2many.entities.Vehicle;
 
 public class CheckVehicle {
 
