@@ -1,6 +1,6 @@
 package com.example.inheritance_ex;
 
-
+//ENHMNT0001
 
 public class CheckVehicle {
 
@@ -10,13 +10,17 @@ public class CheckVehicle {
 
 
         Vehicle v2 = new Car();
-        v2.display();
+
 
         Vehicle v3 = new Vehicle();
-        v3.display();
 
-        Bike b1 = new Bike();
-        b1.display();
-        b1.seat();
+        Vehicle [] v4= new Vehicle[3];
+
+        v4[0]=v1; v4[1]=v2; v4[2]=v3;
+
+        Owner me = new Owner("Rohan","Pune", 28,v4);
+        me.display();
+
+
     }
 }
