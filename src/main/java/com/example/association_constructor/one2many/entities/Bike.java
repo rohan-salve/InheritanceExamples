@@ -1,4 +1,4 @@
-package com.example.inheritance_ex;
+package com.example.association_constructor.one2many.entities;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class Bike extends Vehicle {
     }
 
 
-    Bike()
+    public Bike()
     {
         setTyres(2);
         setCc(100);

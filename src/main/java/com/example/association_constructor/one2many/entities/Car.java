@@ -1,7 +1,7 @@
-package com.example.inheritance_ex;
+package com.example.association_constructor.one2many.entities;
 
 public class Car extends Vehicle{
-    Car()
+    public Car()
     {
         setTyres(4);
         setCc(999);
