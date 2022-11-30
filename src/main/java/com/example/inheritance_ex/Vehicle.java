@@ -22,7 +22,7 @@ public class Vehicle {
 
     public void display()
     {
-        System.out.print("This vehicle has " +tyres+" tyres and "+ cc+" CC Engine \n Hence, this is a");
+        System.out.print("\nThis vehicle has " +tyres+" tyres and "+ cc+" CC Engine \n Hence, this is a");
         if(tyres==2){
             System.out.print(" Bike");
         }
