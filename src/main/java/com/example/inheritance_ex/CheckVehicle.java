@@ -6,12 +6,7 @@ public class CheckVehicle {
 
     public static void main(String[] args) {
         Vehicle v1 = new Bike();
-        v1.display();
-
-
         Vehicle v2 = new Car();
-
-
         Vehicle v3 = new Vehicle();
 
         Vehicle [] v4= new Vehicle[3];
